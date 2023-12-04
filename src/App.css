@@ -1,42 +1,107 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
+
+
+box-shadow :hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+
+
+
+
+/*======= NAVBAR STYLING ENDS HERE =========*/
+
+nav .navbar {
+  display: flex;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+nav .navbar .navbar-nav a{
+  font-size: 20px;
+}
+
+/*======= NAVBAR STYLING ENDS HERE =========*/
+
+
+
+
+
+
+
+/*======= HOME STYLING STARTS HERE =========*/
+
+.home .content {
+  margin-top: 60px;
+  display: flex;
+}
+
+.home .content .right-side, 
+.home .content .left-side {
+  flex-basis: 50%;
+}
+
+.home .content .left-side {
+  align-self: center;
+}
+
+.home .content .left-side h1{
+  font-size: 44px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  line-height: 1;
+}
+
+.home .content .left-side p{
+  font-size: 18px;
+  padding: 8px 0px;
+}
+
+@media(max-width: 800px){
+  .home .content{
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .home .content .left-side, .home .content .right-side{
+    margin-bottom: 50px;
   }
 }
+/*======= HOME STYLING ENDS HERE =========*/
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+
+
+
+
+
+/*======= SHOP STYLING ENDS HERE =========*/
+
+.shop .row {
+  margin-top: 10px;
 }
 
-.card {
-  padding: 2em;
+.card .card-body h5 {
+  display: flex;
+  justify-content: space-between;
 }
 
-.read-the-docs {
-  color: #888;
+.card-footer{
+  display: flex;
+  justify-content: space-around;
+} 
+
+.card-footer .btn {
+  padding:  10px 15px;
 }
+
+.card-footer .btn:first-child {
+  margin-right: 3px;
+}
+
+.card-footer .btn i{
+  padding-left: 4px;
+}
+
+.card-footer .btn:hover{
+  filter: drop-shadow(0 0 0.1em  #646cffaa);
+}
+
+/*======= SHOP STYLING ENDS HERE =========*/
+
