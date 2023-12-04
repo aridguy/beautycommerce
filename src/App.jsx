@@ -18,6 +18,6 @@ function App() {
       <Contact />
     </>
   )
-}
+}    
 
 export default App
