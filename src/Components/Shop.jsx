@@ -2,7 +2,10 @@ function Shop () {
     return (
         <>
         <section className="container shop" id="shop">
+          <div className="content">
           <h2>Shop</h2>
+          <p>We have what your skin deesire. <br /> Check them out and take some Home!</p>
+          </div>
           <div className="row  row-cols-md-4 row-cols-xxs-2 g-4">
             <div className="col">
               <div className="card h-100">

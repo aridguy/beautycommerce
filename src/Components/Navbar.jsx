@@ -18,19 +18,19 @@ function Navbar () {
             {/* <!-- Collapsible wrapper --> */}
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               {/* <!-- Navbar brand --> */}
-              <a className="navbar-brand mt-2 mt-lg-0" href="#home">
+              <a className="navbar-brand mt-2 mt-lg-0" href="/">
               <h3>Logo</h3>
               </a>
               {/* <!-- Left links --> */}
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" href="#shop">Shop</a>
+                  <a className="nav-link" href="/Shop">Shop</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#about">About</a>
+                  <a className="nav-link" href="/About">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">Contact</a>
+                  <a className="nav-link" href="/Contact">Contact</a>
                 </li>
               </ul>
               {/* <!-- Left links --> */}

@@ -30,7 +30,7 @@ nav .navbar .navbar-nav a{
 /*======= HOME STYLING STARTS HERE =========*/
 
 .home .content {
-  margin-top: 60px;
+  margin-top: 20px;
   display: flex;
 }
 
@@ -73,6 +73,14 @@ nav .navbar .navbar-nav a{
 
 /*======= SHOP STYLING ENDS HERE =========*/
 
+.shop .content h2{
+  font-size: 34px;
+}
+
+.shop .content p{
+  font-size: 18 px;
+}
+
 .shop .row {
   margin-top: 10px;
 }
@@ -104,4 +112,10 @@ nav .navbar .navbar-nav a{
 }
 
 /*======= SHOP STYLING ENDS HERE =========*/
-
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff !important;
+}
+.copyrightDiv {
+  background-color: rgba(0, 0, 0, 0.05);
+}

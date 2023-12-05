@@ -8,10 +8,10 @@ i {
 }
 
 section {
-  padding: 60px 0px;
+  padding: 40px 0px;
 }
 
-section .intro {
+.intro {
   width: 100%;
   height: auto;
   display: flex;
@@ -21,7 +21,7 @@ section .intro {
   background-color: black;
 }
 
-section .intro p{
+.intro p{
   font-size: 36px;
   color: white;
 }
