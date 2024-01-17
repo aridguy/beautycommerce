@@ -1,13 +1,15 @@
+
+
 function Contact() {
     return (
-        <>
+        <div>
         <section className="contact" id="contact">
             <div className="container">
-                <h1>Contact Us</h1>
+                <h1>Contact Us today</h1>
             </div>
         </section>
-        </>
+        </div>
     )
 }
 
-export default Contact
+export default Contact;
